@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Intellivision</string>
-    <string name="google_maps_key">AIzaSyDcD3oKNfFT1IKPlD0xUXZcbY_PWoIoK6w</string>
+    <string name="google_maps_key">INGRESA TU KEY</string>
     <string name="info_menu">Te ayudamos a moverte con confianza utilizando tecnología GPS avanzada, diseñada especialmente para personas con problemas de visión. Explora el mundo de manera más accesible y segura.</string>
     <string name="comandos">Los comandos de voz requieren conexión a internet. Aquí puedes ver todos los comandos disponibles y cómo utilizarlos.</string>
 </resources>
