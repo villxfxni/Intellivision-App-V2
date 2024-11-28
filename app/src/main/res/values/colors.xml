@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="bondi_blue">#0799B6</color>
+    <color name="san_marino">#4A6EB0</color>
+    <color name="eden">#114C5F</color>
+    <color name="sinbad">#9CD2D3</color>
+    <color name="janna">#F2E6CF</color>
+    <color name="gris">#666666</color>
+
+</resources>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen_background"
+    tools:context=".Menu">
+
+
+    <!-- Título -->
+
+    <!-- Logo -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alexandria_regular"
+            android:gravity="center"
+            android:text="Bienvenido a IntelliVision"
+            android:textColor="@color/san_marino"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/tvInformacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:fontFamily="@font/alexandria_regular"
+            android:gravity="center"
+            android:justificationMode="inter_word"
+            android:text="@string/info_menu"
+            android:textColor="@color/eden"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/alexandria_regular"
+            android:gravity="center"
+            android:text="Di VISION para iniciar"
+            android:textColor="@color/janna"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnListadoComandos"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_outline_button"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/alexandria_regular"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Ver listado de comandos"
+            android:textColor="@color/eden"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/scrim_background"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnContacto"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_button"
+                android:fontFamily="@font/alexandria_regular"
+                android:gravity="center"
+                android:text="CONTACTO"
+                android:textColor="@color/janna"
+                android:textSize="14sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCam"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_button"
+                android:fontFamily="@font/alexandria_regular"
+                android:gravity="center"
+                android:text="CÁMARA"
+                android:textColor="@color/janna"
+                android:textSize="14sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnPlace"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_button"
+                android:fontFamily="@font/alexandria_regular"
+                android:gravity="center"
+                android:text="RUTA"
+                android:textColor="@color/janna"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

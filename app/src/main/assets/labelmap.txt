@@ -1,0 +1,90 @@
+persona
+bicicleta
+carro
+motocicleta
+avion
+bus
+tren
+camion
+bote
+semaforo
+hidrante
+streetsign
+señal de alto
+parkimetro
+banca
+pajaro
+gato
+perro
+caballo
+oveja
+vaca
+elefante
+oso
+cebra
+jirafa
+SEIS
+mochila
+paraguas
+zapato
+lentes
+bolso
+corbata
+maleta
+frisbi
+skii
+tabla de nieve
+pelota
+cometa
+bate de beisbol
+guante de baseball
+skateboard
+surfboard
+raqueta de tenis
+botella
+plato
+copa de vino
+taza
+tenedor
+cuchillo
+cuchara
+bowl
+banana
+manzana
+sandwich
+naranja
+broccoli
+zanahoria
+hot dog
+pizza
+dona
+torta
+silla
+sillon
+maceta
+cama
+espejo
+mesa
+ventana
+escritorio
+inodoro
+door
+televisor
+laptop
+mouse
+control remoto
+teclado
+celular
+microndas
+horno
+tostadora
+lavamanos
+refrigerador
+licuadora
+libro
+reloj
+vasija
+tijeras
+peluche
+secadora
+cepillo dental

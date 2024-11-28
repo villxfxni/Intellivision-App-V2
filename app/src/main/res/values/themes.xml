@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DirectionsTest" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/san_marino</item>
+        <item name="colorPrimaryVariant">@color/eden</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/eden</item>
+        <item name="colorSecondaryVariant">@color/sinbad</item>
+        <item name="colorOnSecondary">@color/janna</item>
+
+        <item name="android:colorBackground">@color/white</item>
+        <item name="colorSurface">@color/janna</item>
+        <item name="colorOnBackground">@color/gris</item>
+        <item name="colorOnSurface">@color/bondi_blue</item>
+    </style>
+
+    <style name="Theme.DirectionsTest" parent="Base.Theme.DirectionsTest" />
+</resources>
