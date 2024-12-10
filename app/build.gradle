@@ -46,6 +46,12 @@ dependencies {
     implementation ("org.tensorflow:tensorflow-core-api:0.4.0")
     implementation ("org.tensorflow:tensorflow-lite-gpu:2.2.0")
 
+    implementation ("com.google.mlkit:object-detection:17.0.0")
+    implementation ("com.google.mlkit:object-detection-custom:17.0.0")
+
+    implementation ("io.reactivex.rxjava3:rxjava:3.1.5")
+    implementation ("io.reactivex.rxjava3:rxandroid:3.0.0")
+
     implementation ("androidx.room:room-runtime:2.5.2")
     annotationProcessor ("androidx.room:room-compiler:2.5.2")
     implementation libs.appcompat
